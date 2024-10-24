@@ -5,12 +5,15 @@ import time
 def formula_1(x):
     return x**2 - x**2 + x*4 - x*5 + x + x
 
+
 def formula_2(x):
     return x + x
+
 
 # Функция для вычисления суммы (формула 3)
 def formula_3(result1, result2):
     return result1 + result2
+
 
 # Функция для выполнения вычислений в процессе
 def compute_in_process(iterations):
